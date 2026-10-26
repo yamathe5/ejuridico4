@@ -1,0 +1,30 @@
+# Dependencias y salidas de compilación
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+.vercel/
+.netlify/
+
+# Configuración del editor y del sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Skills y configuración local de agentes; no forman parte del sitio publicado
+.agents/
+.codex/
